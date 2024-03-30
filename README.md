@@ -14,3 +14,7 @@ Years ago, I used VB to re-create it.
 Then, many more years later I reproduced the the game under linux in the _nix folder.
 
 The newest is under the sfml folder. I created it based off a tutorial from Vittorio Romeo. It's kind of just thrown together and is not what I would consider a good design. Maybe later I'll clean it up.
+
+Of note re: the SFML version. I was trying to use this as a way to get my eldest daughter interested in programming. She and I created the sound effect of the firing laser by stretching her slinky across some beams and twipping it while recording the sound. She thought it was hilarious. And, it actually created a decent sound for the game.
+
+
