@@ -6,6 +6,8 @@ This was my first "video" game. It was far from what most would think of as a vi
 
 The c64 is the original code, from when I was 11.
 
-I reproduced the flavor of the game under unix in the _nix folder.
+Years ago, I used VB to re-create it.
+
+Then, many more years later I reproduced the the game under unix in the _nix folder.
 
 The newest is under the sfml folder. I created it based off a templet from ____. It's kind of just thrown together and is not what I would consider a good design. Maybe later I'll clean it up.
