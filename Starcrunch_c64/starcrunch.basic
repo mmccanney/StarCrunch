@@ -1,0 +1,20 @@
+REM STARCRUNCH
+
+REM This was originally written by me (Michael J. McCanney)
+REM on a Commodore 64 computer when I was 11.
+REM This is not the original source code. I couldn't find it. 
+REM It is a very nearly identical recreation from my memory.
+
+5 PRINT CHR$(147)
+10 P=20
+20 GET K$
+30 IF K$="" THEN 60
+40 IF ASC(K$)=157 AND P>0 THEN P=P+1
+50 IF ASC(K$)=29 AND P<39 THEN P=P+1
+60 IF PEEK(1024+P)=42 GOTO 99
+70 POKE 1024+P,22
+80 S=RND(1)*40
+90 PRINT SPC(S)"*"
+95 GOTO 20
+99 PRINT"YOU DIED"
+
